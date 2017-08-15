@@ -1,0 +1,7 @@
+base   showuser
+author pochin
+email  qwe852147@hotmail.com
+date   2017-08-15
+name   showuser plugin
+desc   show user of page
+url    http://www.google.com

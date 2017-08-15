@@ -1,0 +1,28 @@
+/**
+ * dw2pdf showuser pagetool icon
+ */
+
+/* export icon */
+#dokuwiki__pagetools ul li a.showuser {
+    background-position: right 0;
+}
+#dokuwiki__pagetools ul li a.showuser:before {
+    content: url(pagetools-showuser-sprite.png);
+    margin-top: 0;
+}
+#dokuwiki__pagetools:hover ul li a.showuser,
+#dokuwiki__pagetools ul li a.showuser:focus,
+#dokuwiki__pagetools ul li a.showuser:active {
+    background-image: url(pagetools-showuser-sprite.png);
+}
+#dokuwiki__pagetools ul li a.showuser:hover,
+#dokuwiki__pagetools ul li a.showuser:active,
+#dokuwiki__pagetools ul li a.showuser:focus {
+    background-position: right -45px;
+}
+/*Keep pagetool icon on left side for rtl languages*/
+[dir=rtl] #dokuwiki__pagetools ul li a.showuser:hover,
+#dokuwiki__pagetools ul li a.showuser:active,
+#dokuwiki__pagetools ul li a.showuser:focus {
+    background-position: right -45px;
+}
