@@ -3,7 +3,7 @@ showuser Plugin for DokuWiki
 show user of page
 
 All documentation for this plugin can be found at
-http://www.google.com
+https://github.com/qwe852147/dokuwiki-showuser
 
 If you install this plugin manually, make sure it is installed in
 lib/plugins/showuser/ - if the folder is called different it
