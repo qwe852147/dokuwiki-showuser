@@ -1,6 +1,6 @@
 <?php
 /**
- * Options for the discussion plugin
+ * Options for the showuser plugin
  */
 
 $conf['is_for_admin']    = 0;

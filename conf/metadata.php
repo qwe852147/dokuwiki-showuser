@@ -1,9 +1,9 @@
 <?php
 /**
  * Metadata for configuration manager plugin
- * Additions for the discussion plugin
+ * Additions for the showuser plugin
  *
- * @author    Esther Brunner <wikidesign@gmail.com>
+ * @author    Esther Brunner <qwe852147@hotmail.com.com>
  */
 
 
