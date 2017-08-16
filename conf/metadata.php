@@ -8,6 +8,7 @@
 
 
 $meta['is_for_admin']  = array('onoff');
+$meta['is_include_admin']  = array('onoff');
 
 
 //Setup VIM: ex: et ts=2 enc=utf-8 :

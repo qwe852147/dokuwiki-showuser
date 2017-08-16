@@ -74,6 +74,9 @@ class action_plugin_showuser extends DokuWiki_Action_Plugin {
         $all_user_list = $auth->retrieveUsers();
         foreach($all_user_list as $user => $userinfo){
             extract($userinfo);
+            if(!$this->getConf('is_include_admin')){
+                $grps = array_values(array_diff($grps, ['admin']));
+            }
             if(auth_aclcheck($ID, $user, $grps, false)> 0){
                 $user_list[$user] = $name;
             }
